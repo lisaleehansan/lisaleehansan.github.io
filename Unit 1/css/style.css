@@ -1,0 +1,13 @@
+body
+	{background-color: gray;
+	text-align: center;
+	}
+	
+h1, p
+	{color: white;
+	font-family: 'Avenir'; 
+	font-weight: lighter;
+	}	
+body a
+	{color:white;}
+
