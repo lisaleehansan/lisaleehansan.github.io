@@ -1,13 +1,13 @@
-body
-	{background-color: gray;
+body {
+	background-color: gray;
 	text-align: center;
-	}
-	
-h1, p
-	{color: white;
-	font-family: 'Avenir'; 
+	color: white;
+	font-family: 'Avenir', sans-serif; 
 	font-weight: lighter;
-	}	
-body a
-	{color:white;}
-
+}
+h1 { 
+	font-weight:lighter;
+}	
+a {
+	color:inherit;
+}
