@@ -1,14 +1,19 @@
 
 body{
 	text-align: center;
+	margin: 0px;
+}
+header{
 	background-image: url(../images/salmon_orzo_dark.jpg);
 	background-size:cover;
+	height: 100vh;
+
 }
 nav{
 	font-family: Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: lighter;
-	padding:0px;
+	padding:5px;
 }
 li{
 	display:inline;
@@ -25,6 +30,7 @@ h1{
 	font-weight: lighter;
 	font-size: 28px;
 }
+
 #logo{
 	height:360px;
 	position: center;
@@ -36,13 +42,56 @@ h1{
 	opacity: .8;
 	border: none;
 	padding: 8px 22px;
-	font-family: Helvetica, sans-serif;
+	font-family: "Helvetica", sans-serif;
 	font-size: 20px;
 	font-weight: lighter;
 	color: #fcfbfb;
 	text-decoration: none;
 }
-
-
-
+#second{
+	background-color: #fbfafa;
+	padding: 150px;
+}
+#second h1{
+	color:#333333;
+	font-size: 30px;
+	font-weight: bold;
+}
+#second p{
+	color:#333333;
+}
+#light{
+	height:75px;
+	padding-bottom: 0px;
+}
+#third{
+	background-image: url(../images/cauli_kale_dark.jpg);
+	background-size:cover;
+	padding: 250px;
+}
+#dollar{
+	height:200px;
+	padding: 0px;
+}
+#third h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+p{
+	font-family: Helvetica, sans-serif;
+	color: #fbfafa;
+	font-weight: lighter;
+	font-size: 20px;
+}
+#fourth{
+	background-image: url(../images/star_background_15.png);
+	background-size:cover;
+	padding: 50px;
+}
+#fourth h1{
+	color:#333333;
+	opacity: 100%;
+	font-size: 30px;
+	font-weight: bold;
+}
 
