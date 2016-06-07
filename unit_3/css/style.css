@@ -114,10 +114,10 @@ p{
 	font-size: 20px;
 }
 #fourth{
-	height: 25vh;
+	height: 20em;
 	background-image: url(../images/star_background_15.png);
 	background-size:cover;
-	padding: 50px;
+	padding: 75px 50px;
 	background-color: #fbfafa;
 }
 #fourth h2{
