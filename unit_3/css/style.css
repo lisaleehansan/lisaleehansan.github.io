@@ -1,4 +1,7 @@
 
+*{
+	box-sizing: border-box;
+}
 body{
 	font-family: Helvetica, sans-serif;
 	text-align: center;
@@ -67,7 +70,7 @@ footer p{
 	color: #333333;
 }
 #second{
-	height: 50vh;
+	height: 25em;
 	background-color: #fbfafa;
 	padding-top: 100px;
 }
@@ -95,14 +98,14 @@ footer p{
 	color:#fbfafa;
 }
 #dc{
-	width:500px;
+	width:50%;
     float:left;
-    padding:145px; 
+    padding:100px; 
 }
 #price{
-	width:500px;
+	width:50%;
     float:right;
-    padding:145px; 
+    padding:100px; 
 }
 p{
 	font-family: Helvetica, sans-serif;
