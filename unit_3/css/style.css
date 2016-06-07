@@ -1,5 +1,6 @@
 
 body{
+	font-family: Helvetica, sans-serif;
 	text-align: center;
 	margin: 0px;
 }
@@ -11,13 +12,16 @@ header{
 }
 nav{
 	font-family: Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: lighter;
 	padding:5px;
 }
+nav a:hover{
+	font-weight:normal;
+}
 li{
 	display:inline;
-	padding: 20px;
+	padding: 20px 35px 20px;
 }
 a{
 	color: #fbfafa;
@@ -29,10 +33,12 @@ h1{
 	color: #fbfafa;
 	font-weight: lighter;
 	font-size: 28px;
+	padding-bottom: 30px;
 }
 footer{
 	background-color: #333333;
-	padding:30px;
+	padding:25px;
+	background-size: cover;
 }
 footer p{
 	font-size: 18px;
@@ -45,23 +51,29 @@ footer p{
 	padding-bottom: 0px;
 }
 #learn{
-	background-color: #333333;
-	opacity: .8;
-	border: none;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #fbfafa;
+	background-color: transparent;
 	padding: 8px 22px;
 	font-family: "Helvetica", sans-serif;
 	font-size: 20px;
-	font-weight: lighter;
-	color: #fcfbfb;
+	font-weight: normal;
+	color: #fbfafa;
 	text-decoration: none;
 }
-#second{
-	background-color: #fbfafa;
-	padding: 150px;
+#learn:hover{
+	background-color:#fbfafa;
+	color: #333333;
 }
-#second h1{
+#second{
+	height: 50vh;
+	background-color: #fbfafa;
+	padding-top: 100px;
+}
+#second h2{
 	color:#333333;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
 }
 #second p{
@@ -71,18 +83,26 @@ footer p{
 	height:75px;
 	padding-bottom: 0px;
 }
-#third{
+.third{
 	background-image: url(../images/cauli_kale_dark.jpg);
-	background-size:cover;
-	padding: 250px;
+	background-size: cover;
+	height: 75vh; 
+
 }
-#dollar{
-	height:200px;
-	padding: 0px;
-}
-#third h1{
-	font-size: 30px;
+.third h2{
+	font-size: 25px;
 	font-weight: bold;
+	color:#fbfafa;
+}
+#dc{
+	width:500px;
+    float:left;
+    padding:145px; 
+}
+#price{
+	width:500px;
+    float:right;
+    padding:145px; 
 }
 p{
 	font-family: Helvetica, sans-serif;
@@ -91,14 +111,33 @@ p{
 	font-size: 20px;
 }
 #fourth{
+	height: 25vh;
 	background-image: url(../images/star_background_15.png);
 	background-size:cover;
-	padding: 80px;
+	padding: 50px;
+	background-color: #fbfafa;
 }
-#fourth h1{
-	color:#333333;
+#fourth h2{
+	color: #333333;
 	opacity: 100%;
 	font-size: 30px;
 	font-weight: bold;
+	padding-bottom: 20px;
+}
+#join{
+	border-style: solid;
+	border-width: 3px;
+	border-color: #333333;
+	background-color: transparent;
+	padding: 8px 22px;
+	font-family: "Helvetica", sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+#join:hover{
+	background-color:#333333;
+	color: #fbfafa;
 }
 
