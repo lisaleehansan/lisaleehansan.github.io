@@ -9,15 +9,20 @@ body{
 	text-align: center;
 	margin: 0px;
 }
-header{
+#home{
 	background-image: url(../images/salmon_orzo_dark.jpg);
 	background-size:cover;
 	height: 100vh;
-
 }
+#about{
+	background: url(../images/butternut_squash_skillet.jpg);
+	background-size:cover;
+	height:125vh;
+}
+
 nav{
 	font-family: 'Pt Serif', serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 	padding:5px;
 }
@@ -43,7 +48,7 @@ h1{
 footer{
 	background-color: #333333;
 	padding:25px;
-	background-size: cover;
+	background-size: 
 }
 footer p{
 	font-size: 1em;
@@ -148,4 +153,52 @@ p{
 	background-color:#333333;
 	color: #fbfafa;
 }
+#about_main{
+	background: #fbfafa;
+	background-size:cover;
+	height: 50vh;
+
+}
+
+#about_us{
+	font-family:'Roboto', sans-serif;
+	font-weight: 700;
+	padding-top: 30px;
+	font-size: 5em;
+}
+#story{
+	border: 1.5px transparent rgba(51,51,51,.1);
+	width:40%;
+	height:400px;
+	background: rgba(51,51,51,.3);
+	float:left;
+    padding:15px;
+    margin-left: 125px;
+}
+#story h2{
+	font-family:'Roboto', sans-serif;
+	font-size: 3em;
+	font-weight: 700;
+	color: rgba(251,250,250,1);
+}
+
+#mission{
+	border: 1.5px transparent rgba(51,51,51,.1);
+	width:40%;
+	height: 400px;
+	background: rgba(51,51,51,.3);
+    float:right;
+    padding:15px;
+    margin-right: 125px;
+
+}
+#mission h2{
+	font-family:'Roboto', sans-serif;
+	font-size: 3em;
+	font-weight: 700;
+	color: rgba(251,250,250,1);
+}
+
+
+
 
