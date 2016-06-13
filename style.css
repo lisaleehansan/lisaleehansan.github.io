@@ -21,13 +21,13 @@ body{
 	height:125vh;
 }
 #kitchen{
-	background: url(../images/kitchen_ovens_burn.jpg);
+	background: url(../images/kitchen_ovens.jpg);
 	background-size:cover;
-	height:150vh;
+	height:125vh;
 }
 
 nav{
-	background: rgba(51,51,51,.2);
+	background: rgba(51,51,51,.1);
 	font-family: 'Pt Serif', serif;
 	font-size: 20px;
 	font-weight: 400;
@@ -200,81 +200,13 @@ p{
 	font-weight: 700;
 	color: rgba(251,250,250,1);
 }
-#our_kitchen{
-	font-family:'Roboto', sans-serif;
-	font-weight: 700;
-	padding-top: 30px;
-	font-size: 5em;
-}
-#walk_ins{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height: 25%;
-	background: rgba(51,51,51,.3);
-    float:left;
-    padding:15px;
-    margin-left: 125px;
-}
-#walk_ins h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: 700;
-	color: rgba(251,250,250,1);
-}
-#hood_space{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height: 25%;
-	background: rgba(51,51,51,.3);
-    float:right;
-    padding:15px;
-    margin-right: 125px;
-}
-#hood_space h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: 700;
-	color: rgba(251,250,250,1);
-}
-#office_space{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height: 200px;
-	background: rgba(51,51,51,.3);
-    float:left;
-    padding:15px;
-    margin-top: 20px;
-    margin-left: 125px;
-}
-#office_space h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: 700;
-	color: rgba(251,250,250,1);
-}
-#more{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height: 25%;
-	background: rgba(51,51,51,.3);
-    float:right;
-    padding:15px;
-    margin-top: 20px;
-    margin-right: 125px;
-}
-#more h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: 700;
-	color: rgba(251,250,250,1);
-}
-
 .footer_all{
 	background-image: url(../images/star_background_15.png);
 	background-color: #333333;
 	padding: 25px;
 	background-size: cover;
 }
+
 
 
 
