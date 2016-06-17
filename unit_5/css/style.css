@@ -1,12 +1,14 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
 *{
 	box-sizing: border-box;
 }
 
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto',sans-serif;
 	font-size: 16px;
 	text-align: center;
 	margin: 0px;
@@ -32,7 +34,7 @@ body{
 }
 nav{
 	background: rgba(51,51,51,.1);
-	font-family: 'Pt Serif', serif;
+	font-family: 'Roboto', serif;
 	font-size: 1.2em;
 	font-weight: 400;
 	padding-top: 2px;
@@ -52,8 +54,8 @@ a{
 }
 
 h1{
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-family: 'Lora',serif;
+	font-weight: 400;
 	color: #fbfafa;
 	font-size: 2em;
 	padding-bottom: 30px;
@@ -75,11 +77,11 @@ footer p{
 }
 #learn{
 	border-style: solid;
-	border-width: 3px;
+	border-width: 2px;
 	border-color: #fbfafa;
 	background-color: transparent;
 	padding: 8px 22px;
-	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', serif;
 	font-size: 20px;
 	font-weight: normal;
 	color: #fbfafa;
@@ -96,15 +98,15 @@ footer p{
 }
 #second h2{
 	color:#333333;
-	font-size: 2em;
+	font-size: 1.75em;
 	font-weight: 700;
 }
 #second p{
 	color:#333333;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 #light{
-	height:75px;
+	height:65px;
 	padding-bottom: 0px;
 }
 .third{
@@ -114,26 +116,27 @@ footer p{
 
 }
 .third h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 2em;
+	font-family:'Roboto',sans-serif;
+	font-size: 1.75em;
 	font-weight: 700;
 	color:#fbfafa;
 }
 #dc{
 	width:50%;
     float:left;
-    padding:160px 100px;
+    padding:200px 100px;
 }
 #price{
 	width:50%;
     float:left;
-    padding:160px 100px; 
+    padding:200px 100px; 
 }
 p{
-	font-family: 'Pt Serif', serif;
+	font-family: 'Lora',serif;
 	color: #fbfafa;
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1.25em;
+	line-height: 1.5em;
 }
 #fourth{
 	height: 20em;
@@ -143,20 +146,20 @@ p{
 	background-color: #fbfafa;
 }
 #fourth h2{
-	font-family:'Roboto', sans-serif;
+	font-family:'Roboto',serif;
 	color: #333333;
 	opacity: 100%;
-	font-size: 2em;
+	font-size: 1.75em;
 	font-weight: 700;
 	padding-bottom: 20px;
 }
 #join{
 	border-style: solid;
-	border-width: 3px;
+	border-width: 2px;
 	border-color: #333333;
 	background-color: transparent;
 	padding: 8px 22px;
-	font-family: 'Pt Serif', serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	color: #333333;
@@ -172,7 +175,7 @@ p{
 
 
 #about_us{
-	font-family:'Roboto', sans-serif;
+	font-family:'Roboto',serif;
 	font-weight: 700;
 	padding-top: 30px;
 	font-size: 5em;
@@ -187,7 +190,7 @@ p{
     padding: 15px;
 }
 #story h2{
-	font-family:'Roboto', sans-serif;
+	font-family:'Roboto',serif;
 	font-size: 3em;
 	font-weight: 700;
 	color: rgba(251,250,250,1);
