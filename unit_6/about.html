@@ -4,8 +4,8 @@
 	<title>about</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-	<header id="about">
+<body id="about">
+	<header>
 		<nav>
 			<ul>
 				<li><a href="index.html">home</a></li> 
@@ -14,21 +14,23 @@
 				<li><a href="join.html">join</a></li>
 			</ul>
 		</nav>
-				<h1 id="about_us">about us
-				</h1>
-		<section class="clearfix">
-			<div id="story">
-				<h2>our story</h2>
-				<hr>
-				<p>Born, raised, and founded in the District. TasteLab serves as home to scratchDC, Tiny Grocery, and a few of our local friends who make some of the city's best food from our DC Commercial kitchen.</p>
-			</div>
-			<div id="mission">
-				<h2>our mission</h2>
-				<hr>
-				<p>TasteLab is committed to creating a home and fostering a community where food businesses have the ability to grow, expand and prosper.</p>
-			</div>
-	</section>
 	</header>
+	<main>
+		<h1 id="about_us">about us</h1>
+			<section class="clearfix" id="story_mission_wrapper">
+					<div id="story" class="story_mission">
+						<h2>our story</h2>
+						<hr>
+						<p>Born, raised, and founded in the District. TasteLab serves as home to <a class="scratch_tiny" href="https://scratchdc.com">scratchDC</a>, <a class="scratch_tiny" href="http://tinygrocery.com">TinyGrocery</a>, and a few of our local friends who make some of the city's best food from our DC Commercial kitchen.</p>
+					</div>
+					<div id="mission" class="story_mission">
+						<h2>our mission</h2>
+						<hr>
+						<p>TasteLab is committed to creating a home and fostering a community where foodbusinesses 	have the ability to grow, expand and prosper.</p>
+						</div>
+			</section>
+	</main>
+	
 <footer class="footer_all">
 		<nav>
 			<ul>
@@ -38,8 +40,7 @@
 				<li><a href="join.html">join</a></li>
 			</ul>
 		</nav>
-		<p>2619 evarts st ne washington, dc 20018</p>
-		<p class="footer">&copy; 2016 tastelab llc</p>
+			<p>&copy; 2016 tastelab llc | 2619 evarts st ne washington, dc 20018</p>
 	</footer>
 </body>
 </html>

@@ -1,10 +1,16 @@
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
-@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Work+Sans);
 *{
 	box-sizing: border-box;
+}
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
 }
 
 body{
@@ -12,6 +18,13 @@ body{
 	font-size: 16px;
 	text-align: center;
 	margin: 0px;
+}
+p{
+	font-family: 'Lora',serif;
+	color: #fbfafa;
+	font-weight: 200;
+	font-size: 1.25em;
+	line-height: 1.5em;
 }
 #home{
 	background-image: url(../images/salmon_orzo_dark.jpg);
@@ -21,24 +34,29 @@ body{
 #about{
 	background: url(../images/butternut_squash_skillet.jpg);
 	background-size:cover;
-	height:125vh;
+	/*height:125vh;*/
 }
 #kitchen{
 	background: url(../images/kitchen_ovens_burn.jpg);
+	height: 125vh;
 	background-size:cover;
-	height:150vh;
+	/*height:100vh;*/
 }
 
 #form{
 	background-color: #9e9e9e;
+	height:80vh;
 }
 nav{
 	background: rgba(51,51,51,.1);
-	font-family: 'Roboto', serif;
-	font-size: 1.2em;
-	font-weight: 400;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	padding-top: .125em;
+	padding-bottom: .125em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	width: 100%;
 }
 
 nav a:hover{
@@ -46,7 +64,7 @@ nav a:hover{
 }
 li{
 	display:inline;
-	padding: 20px 35px 20px;
+	padding: 1.25em 2.1875em 1.25em;
 }
 a{
 	color: #fbfafa;
@@ -54,36 +72,29 @@ a{
 }
 
 h1{
-	font-family: 'Lora',serif;
+	font-family:'Roboto',sans-serif;
 	font-weight: 400;
-	color: #fbfafa;
+	color:#fbfafa;
 	font-size: 2em;
-	padding-bottom: 30px;
-}
-footer{
-	background-color: #333333;
-	padding:25px;
-	background-size: 
-}
-footer p{
-	font-size: .75em;
+	padding-bottom: .9375em;
+	text-transform: uppercase;
 }
 
 #logo{
-	height:25em;
+	height:12em;
 	position: center;
-	padding-top: 50px;
-	padding-bottom: 0px;
+	margin-top: 11em;
 }
 #learn{
 	border-style: solid;
-	border-width: 2px;
+	border-width: .0781em;
 	border-color: #fbfafa;
 	background-color: transparent;
-	padding: 8px 22px;
-	font-family: 'Roboto', serif;
-	font-size: 20px;
-	font-weight: normal;
+	padding: .5em 1.375em;
+	width: 25%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
 	color: #fbfafa;
 	text-decoration: none;
 }
@@ -94,9 +105,10 @@ footer p{
 #second{
 	height: 30em;
 	background-color: #fbfafa;
-	padding-top: 100px;
+	padding: 6em 20em;
 }
 #second h2{
+	font-family:'Roboto', sans-serif;
 	color:#333333;
 	font-size: 1.75em;
 	font-weight: 700;
@@ -106,8 +118,8 @@ footer p{
 	font-size: 1.25em;
 }
 #light{
-	height:65px;
-	padding-bottom: 0px;
+	height:4.0625em;
+	/*padding-bottom: 0px;*/
 }
 .third{
 	background-image: url(../images/cauli_kale_final.jpg);
@@ -117,195 +129,189 @@ footer p{
 }
 .third h2{
 	font-family:'Roboto',sans-serif;
-	font-size: 1.75em;
+	font-size: 2em;
 	font-weight: 700;
 	color:#fbfafa;
+}
+.third p{
+	padding: 0em 4.375em .625em;
 }
 hr{
 	background-color: #fbfafa;
 	border:none;
 	display: block;
-	width: 4em;
-	height: 3px;
+	width: 3em;
+	height: .1em;
 	}
+#second hr{
+	background-color: #333333;
+
+}
+#price_dc_wrapper{
+	/*background: purple;*/
+	/*width: 1414.062px;*/
+	width: 100%;
+	margin: auto;
+
+}
 #dc{
-	width:50%;
+	width:48%;
     float:left;
-    padding:200px 100px;
+    margin: 10%.5% 0%;
+    /*background: orange;*/
+   
 }
 #price{
-	width:50%;
+	width:48%;
     float:left;
-    padding:200px 100px; 
-}
-p{
-	font-family: 'Lora',serif;
-	color: #fbfafa;
-	font-weight: 400;
-	font-size: 1.25em;
-	line-height: 1.5em;
+    margin:10% .5% 0%;
+    /*background: orange;*/
+     
 }
 #fourth{
 	height: 20em;
 	background-image: url(../images/star_background_15.png);
 	background-size:cover;
-	padding: 75px 50px;
+	padding: 4.687em 3.125em;
 	background-color: #fbfafa;
 }
 #fourth h2{
-	font-family:'Roboto',serif;
+	font-family: "Roboto",sans-serif;
+	font-weight: 700;
 	color: #333333;
 	opacity: 100%;
 	font-size: 1.75em;
-	font-weight: 700;
-	padding-bottom: 20px;
+	padding-bottom: 1.25em;
 }
 #join{
 	border-style: solid;
-	border-width: 2px;
+	border-width: .0781em;
 	border-color: #333333;
 	background-color: transparent;
-	padding: 8px 22px;
+	width:25%;
+	padding: .5em 1.375em;
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 1em;
 	font-weight: 400;
 	color: #333333;
 	text-decoration: none;
 }
 #join:hover{
-	background-color:#333333;
+	background-color:rgba(51,51,51,1);
 	color: #fbfafa;
 }
-.clearfix {
-	overflow: auto;
+#story_mission_wrapper{
+	/*background-color: purple;*/
+	width: 1125.5462px;
+	margin: auto;
 }
-
-
 #about_us{
-	font-family:'Roboto',serif;
+	font-family:'Roboto',sans-serif;
+	text-transform: lowercase;
 	font-weight: 700;
-	padding-top: 30px;
+	padding-top: 0px;
 	font-size: 5em;
 }
-#story{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height:400px;
-	background: rgba(51,51,51,.3);
-    float:left;
-    margin-left: 125px;
-    padding: 15px;
+.scratch_tiny{
+	/*letter-spacing: .15em;*/
+	font-weight: 700;
+	color: #fbfafa;
 }
-#story h2{
+.scratch_tiny:hover{
+	border-bottom: .08em solid #fbfafa;
+}
+
+#story{
+	background: rgba(51,51,51,.3);
+    width: 48%;
+    float: left;
+    margin: 0% .5% 10%;
+    height: 25em;
+
+}
+#mission{
+	background: rgba(51,51,51,.3);
+    width: 48%;
+    float: left;
+    margin: 0% .5% 10%;
+    height: 25em;
+}
+
+.story_mission h2{
 	font-family:'Roboto',serif;
 	font-size: 3em;
 	font-weight: 700;
 	color: rgba(251,250,250,1);
-	margin-bottom: 20px;
+	margin-bottom: 0%;
+}
+.story_mission p{
+	padding: 0 1.25em .625em;
+}
+#kitchen_wrapper{
+	width: 1241.719;
+    margin: auto;
 }
 
-#mission{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height: 400px;
-	background: rgba(51,51,51,.3);
-    float:right;
-    margin-right:125px;
-    padding: 15px;
-}
-#mission h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: 700;
-	color: rgba(251,250,250,1);
-	margin-bottom: 20px;
-}
 #our_kitchen{
 	font-family:'Roboto', sans-serif;
+	text-transform: lowercase;
 	font-weight: 700;
-	padding-top: 30px;
 	font-size: 5em;
 }
+.four_boxes h2{
+	font-family:'Roboto', sans-serif;
+	font-size: 3em;
+	font-weight: 700;
+	color: rgba(251,250,250,1);
+	/*margin-bottom: 0px;*/
+	}
+.four_boxes p{
+	padding: 0em 1.25em .625em;
+}
+
 #walk_ins{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height: 25%;
+	width:48%;
+	height: 15em;
 	background: rgba(51,51,51,.5);
     float:left;
-    padding:15px;
-    margin-left: 125px;
-}
-#walk_ins h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: 700;
-	color: rgba(251,250,250,1);
-	margin-bottom: 10px;
-}
+    margin: .5%;
+	}
 #hood_space{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height: 25%;
+	width:48%;
+	height: 15em;
 	background: rgba(51,51,51,.5);
-    float:right;
-    padding:15px;
-    margin-right: 125px;
-}
-#hood_space h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: 700;
-	color: rgba(251,250,250,1);
-	margin-bottom: 10px;
+    float:left;
+    margin: .5%;
 }
 #office_space{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height: 25%;
+	width:48%;
+	height: 15em;
 	background: rgba(51,51,51,.5);
     float:left;
-    padding:15px;
-    margin-top: 20px;
-    margin-left: 125px;
-}
-#office_space h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: 700;
-	color: rgba(251,250,250,1);
-	margin-bottom: 10px;
-}
+    margin: 0 .5% 10%;
+	}
 #more{
-	border: 1.5px transparent rgba(51,51,51,.1);
-	width:40%;
-	height: 25%;
+	width:48%;
+	height: 15em;
 	background: rgba(51,51,51,.5);
-    float:right;
-    padding:15px;
-    margin-top: 20px;
-    margin-right: 125px;
+    float:left;
+    margin: 0 .5% 10%;
+	}
+footer{
+	background-color: #333333;
+	padding:1.5625em;
+	height: 30vh;
 }
-#more h2{
-	font-family:'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: 700;
-	color: rgba(251,250,250,1);
-	margin-bottom: 10px;
+footer p{
+	font-size: .75em;
+	margin-top:5em;
 }
 
 .footer_all{
 	background-image: url(../images/star_background_gray.png);
 	background-color: #333333;
-	padding: 25px;
+	padding: 1.5625em;
 	background-size: cover;
+	height: 30vh;
 }
-.verticalline{
-	background-color: #fbfafa;
-	border:none;
-	display: block;
-	width: .1em;
-	height: 25px;
-
-}
-
 
