@@ -209,7 +209,7 @@ hr{
 }
 #fourth{
 	height: 20em;
-	background-image: url(../images/star_background_15.png);
+	/*background-image: url(../images/star_background_15.png);*/
 	background-size:cover;
 	padding: 4.687em 3.125em;
 	background-color: #fbfafa;
@@ -220,18 +220,22 @@ hr{
 	color: #333333;
 	opacity: 100%;
 	font-size: 1.75em;
-	padding-bottom: 1.25em;
+	padding-bottom: .5em;
 }
+#fourth .stars{
+	margin-bottom: 2em;
+}
+
 #join{
 	border-style: solid;
 	border-width: .0781em;
 	border-color: #333333;
 	background-color: transparent;
-	width:25%;
 	padding: .5em 1.375em;
+	width: 25%;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-	font-weight: 400;
+	font-weight: 300;
 	color: #333333;
 	text-decoration: none;
 }
@@ -325,7 +329,9 @@ hr{
     margin: .5em .5em 10em .5em;
 	}
 footer{
+	background-image: url(../images/star_background_gray.png);
 	background-color: #333333;
+	background-size: cover;
 	padding:1.5625em;
 	height: 30vh;
 }
