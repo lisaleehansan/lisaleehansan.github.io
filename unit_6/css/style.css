@@ -3,6 +3,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 *{
 	box-sizing: border-box;
+	margin:0;
+	padding:0;
 }
 .clearfix:after{
 	visibility: hidden;
@@ -18,6 +20,7 @@ body{
 	font-size: 16px;
 	text-align: center;
 	margin: 0px;
+	background-color: #fbfafa;
 }
 p{
 	font-family: 'Lora',serif;
@@ -32,15 +35,17 @@ p{
 	height: 100vh;
 }
 #about{
-	background: url(../images/butternut_squash_skillet.jpg);
-	background-size:cover;
-	/*height:125vh;*/
+	background-image: url(../images/table_scape.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 19.3125em;
 }
+
 #kitchen{
-	background: url(../images/kitchen_ovens_burn.jpg);
-	height: 125vh;
-	background-size:cover;
-	/*height:100vh;*/
+	background: url(../images/butternut_squash_skillet_cropped.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 19.3125em;
 }
 
 #form{
@@ -48,26 +53,51 @@ p{
 	height:80vh;
 }
 nav{
-	background: rgba(51,51,51,.1);
+	background: rgba(251,250,250,1);
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	font-weight: 300;
-	padding-top: .125em;
-	padding-bottom: .125em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	text-transform: uppercase;
-	letter-spacing: .2em;
+	letter-spacing: .3em;
 	width: 100%;
+}
+#home nav{
+	background: rgba(51,51,51,.1);
+	font-size: 1em;
+
+}
+#home nav a{
+	color:#fbfafa;
+
+}
+#home h1{
+	padding-bottom: .9375em;
+}
+footer nav{
+	background: rgba(51,51,51,.1);
+	font-size: 1em;
+
+}
+footer nav a{
+	color:#fbfafa;
 }
 
 nav a:hover{
 	font-weight:700;
 }
+nav a{
+	display: inline;
+	padding: 1em;
+	margin: 0 1%;
+}
 li{
-	display:inline;
-	padding: 1.25em 2.1875em 1.25em;
+	/*display:inline;*/
+	/*padding: 1.25em 2.1875em 1.25em;*/
 }
 a{
-	color: #fbfafa;
+	color: rgba(51,51,51,1);
 	text-decoration: none;
 }
 
@@ -76,7 +106,7 @@ h1{
 	font-weight: 400;
 	color:#fbfafa;
 	font-size: 2em;
-	padding-bottom: .9375em;
+	/*padding-bottom: .9375em;*/
 	text-transform: uppercase;
 }
 
@@ -117,15 +147,17 @@ h1{
 	color:#333333;
 	font-size: 1.25em;
 }
+#second hr{
+	background-color: #333333;
+
+}
 #light{
 	height:4.0625em;
-	/*padding-bottom: 0px;*/
 }
 .third{
 	background-image: url(../images/cauli_kale_final.jpg);
 	background-size: cover;
-	height: 40em; 
-
+	height: 40em;
 }
 .third h2{
 	font-family:'Roboto',sans-serif;
@@ -136,17 +168,24 @@ h1{
 .third p{
 	padding: 0em 4.375em .625em;
 }
-hr{
+.third hr{
 	background-color: #fbfafa;
+
+}
+hr{
+	background-color: #333333;
 	border:none;
 	display: block;
 	width: 3em;
 	height: .1em;
+	margin: .5em auto;
 	}
-#second hr{
-	background-color: #333333;
-
+.line_divide{
+	width: 100%;
+	height: .1em;
+	background-color: rgba(51,51,51,.5);
 }
+
 #price_dc_wrapper{
 	/*background: purple;*/
 	/*width: 1414.062px;*/
@@ -202,100 +241,88 @@ hr{
 }
 #story_mission_wrapper{
 	/*background-color: purple;*/
-	width: 1125.5462px;
+	max-width: 40em;
 	margin: auto;
 }
-#about_us{
-	font-family:'Roboto',sans-serif;
-	text-transform: lowercase;
-	font-weight: 700;
-	padding-top: 0px;
-	font-size: 5em;
+.stars{
+	height: 1.75em;
 }
+
+.about_kitchen{
+	font-family:'Roboto',sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.75em;
+	margin: 2em 0em .2em 0em;
+}
+#story h2{
+	margin-top: 2em;
+}
+
 .scratch_tiny{
 	/*letter-spacing: .15em;*/
-	font-weight: 700;
-	color: #fbfafa;
+	font-weight: 400;
+	/*color: #660000;*/
 }
 .scratch_tiny:hover{
-	border-bottom: .08em solid #fbfafa;
+	text-decoration: underline;
 }
 
-#story{
-	background: rgba(51,51,51,.3);
-    width: 48%;
-    float: left;
-    margin: 0% .5% 10%;
-    height: 25em;
-
-}
-#mission{
-	background: rgba(51,51,51,.3);
-    width: 48%;
-    float: left;
-    margin: 0% .5% 10%;
-    height: 25em;
-}
 
 .story_mission h2{
 	font-family:'Roboto',serif;
-	font-size: 3em;
+	font-size: 1.75em;
 	font-weight: 700;
-	color: rgba(251,250,250,1);
-	margin-bottom: 0%;
+	color: rgba(51,51,51,1);
+	margin-top: 1em;
+	/*margin-bottom: 1em;*/
 }
 .story_mission p{
 	padding: 0 1.25em .625em;
+	color: rgba(51,51,51,1);
+}
+#mission{
+	margin-bottom: 7em;
 }
 #kitchen_wrapper{
-	width: 1241.719;
+	max-width: 60em;
     margin: auto;
 }
 
-#our_kitchen{
-	font-family:'Roboto', sans-serif;
-	text-transform: lowercase;
-	font-weight: 700;
-	font-size: 5em;
-}
+
 .four_boxes h2{
 	font-family:'Roboto', sans-serif;
-	font-size: 3em;
+	font-size: 1.75em;
 	font-weight: 700;
-	color: rgba(251,250,250,1);
-	/*margin-bottom: 0px;*/
+	color: #333333;
+	margin-top: 1em;
 	}
 .four_boxes p{
 	padding: 0em 1.25em .625em;
+	color: #333333;
 }
 
-#walk_ins{
+#walk_ins {
 	width:48%;
-	height: 15em;
-	background: rgba(51,51,51,.5);
     float:left;
-    margin: .5%;
+    margin-top: .5em;
 	}
 #hood_space{
 	width:48%;
-	height: 15em;
-	background: rgba(51,51,51,.5);
     float:left;
-    margin: .5%;
+    margin: .5em;
 }
+
 #office_space{
 	width:48%;
-	height: 15em;
-	background: rgba(51,51,51,.5);
     float:left;
-    margin: 0 .5% 10%;
+    margin: .5em .5em 7em .5em;
 	}
 #more{
 	width:48%;
-	height: 15em;
-	background: rgba(51,51,51,.5);
     float:left;
-    margin: 0 .5% 10%;
+    margin: .5em .5em 10em .5em;
 	}
 footer{
 	background-color: #333333;
