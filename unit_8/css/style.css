@@ -31,11 +31,11 @@ p{
 }
 #home{
 	background-image: url(../images/salmon_orzo_dark.jpg);
-	background-size:cover;
-	height: 100vh;
+	background-size: cover;
+	min-height: 100vh;
 }
 #about{
-	background-image: url(../images/table_scape.jpg);
+	background-image: url(../images/parsley.jpg);
 	background-size:100%;
 	background-repeat: no-repeat;
 	height: 19.3125em;
@@ -128,12 +128,13 @@ h1{
 	color: #fbfafa;
 	text-decoration: none;
 }
+
 #learn:hover{
 	background-color:#fbfafa;
 	color: #333333;
 }
 #second{
-	height: 30em;
+	/*height: 30em;*/
 	background-color: #fbfafa;
 	padding: 6em 20em;
 }
@@ -157,7 +158,7 @@ h1{
 .third{
 	background-image: url(../images/cauli_kale_final.jpg);
 	background-size: cover;
-	height: 40em;
+	/*height: 30em;*/
 }
 .third h2{
 	font-family:'Roboto',sans-serif;
@@ -167,6 +168,7 @@ h1{
 }
 .third p{
 	padding: 0em 4.375em .625em;
+	margin-bottom: 10em;
 }
 .third hr{
 	background-color: #fbfafa;
@@ -208,7 +210,7 @@ hr{
      
 }
 #fourth{
-	height: 20em;
+	/*height: 20em;*/
 	/*background-image: url(../images/star_background_15.png);*/
 	background-size:cover;
 	padding: 4.687em 3.125em;
@@ -293,7 +295,11 @@ hr{
 	max-width: 60em;
     margin: auto;
 }
+.four_boxes{
+	width:48%;
+    float:left;
 
+}
 
 .four_boxes h2{
 	font-family:'Roboto', sans-serif;
@@ -308,24 +314,24 @@ hr{
 }
 
 #walk_ins {
-	width:48%;
-    float:left;
+	/*width:48%;*/
+    /*float:left;*/
     margin-top: .5em;
 	}
 #hood_space{
-	width:48%;
-    float:left;
+	/*width:48%;*/
+    /*float:left;*/
     margin: .5em;
 }
 
 #office_space{
-	width:48%;
-    float:left;
+	/*width:48%;*/
+    /*float:left;*/
     margin: .5em .5em 7em .5em;
 	}
 #more{
-	width:48%;
-    float:left;
+	/*width:48%;*/
+    /*float:left;*/
     margin: .5em .5em 10em .5em;
 	}
 footer{
@@ -348,8 +354,64 @@ footer p{
 	height: 30vh;
 }
 
-@media only screen and (max-width:770px) {
+@media only screen and (max-width:1130px) {
+	body {
+		font-size: 14px;
+	}
+
+@media only screen and (max-width:985px) {
+	body {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width:880px) {
+	body {
+		font-size: 10px;
+	}
+
 	.story_mission {
 		margin:2em 1%;
 		width:98%;
+	}
+@media only screen and (max-width:755px){
+	.four_boxes{
+		float: none;
+	}
+	#walk_ins{
+		margin: 0 auto;
+
+	}
+	#hood_space{
+		margin: 0 auto;
+
+	}
+	#office_space{
+		margin: 0 auto;
+
+	}
+	#more{
+		margin: 0 auto 7em auto;
+	}
+	.line_divide{
+		width: 0%;
+	}
+	@media only screen and (max-width:635px){
+		#second{
+			font-size: 9px;
+
+		}
+		.about_kitchen{
+		margin-top: 0em;
+		}
+	@media only screen and (max-width:520px) {
+		#home{
+		background-image: none;
+	    background-size: none;
+		min-height: none;
+		background-color: #333333;
+	}
+		#logo{
+			height: 7em;
+		}
 	}
