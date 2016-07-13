@@ -23,7 +23,7 @@ body{
 	background-color: #fbfafa;
 }
 p{
-	font-family: 'Lora',serif;
+	font-family: 'Roboto',sans-serif;
 	color: #fbfafa;
 	font-weight: 200;
 	font-size: 1.25em;
@@ -31,7 +31,8 @@ p{
 }
 #home{
 	background-image: url(../images/salmon_orzo_dark.jpg);
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	min-height: 100vh;
 }
 #about{
