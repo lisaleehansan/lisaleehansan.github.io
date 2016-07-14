@@ -438,10 +438,11 @@ footer p{
 		}
 		#logo {
 			height: 7em;
-			margin-top: 5em;
+			margin-top: 1em;
 		}
 		h1{
 			font-size: 1.5em;
+			margin-bottom: 1.5em;
 		}
 		#second {
 			padding: 6em 2em;
@@ -455,9 +456,6 @@ footer p{
 		}
 	}
 	@media only screen and (max-width:550px) {
-		#logo{
-			height: 7em;
-		}
 		h1{
 			font-size: 1.5em;
 		}
@@ -467,6 +465,15 @@ footer p{
 	}
 	@media only screen and (max-width:520px) {
 		#logo{
-			height: 7em;
+			height: 6em;
+		}
+	}
+	@media only screen and (max-width:420px) {
+
+		#logo{
+			height: 5em;
+		}
+		h1{
+			font-size: 1em;
 		}
 	}
