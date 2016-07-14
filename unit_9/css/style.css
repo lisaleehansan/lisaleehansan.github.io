@@ -1,0 +1,472 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+body{
+	font-family:'Roboto',sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+	margin: 0px;
+	background-color: #fff;
+}
+p{
+	font-family:'Roboto',sans-serif;
+	color: #fbfafa;
+	font-weight: 300;
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+#home{
+	background-image: url(../images/salmon_orzo_dark.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+#about{
+	background-image: url(../images/parsley.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 19.312em;
+}
+
+#kitchen{
+	background: url(../images/butternut_squash_skillet_cropped.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 19.3125em;
+}
+
+#form{
+	background-color: #9e9e9e;
+	height:80vh;
+}
+nav{
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	width: 100%;
+}
+#home nav{
+	background: rgba(51,51,51,.1);
+	font-size: 1em;
+
+}
+#home nav a{
+	color:#fbfafa;
+
+}
+#home h1{
+	padding-bottom: .9375em;
+}
+footer nav{
+	background: rgba(51,51,51,.1);
+	font-size: 1em;
+
+}
+footer nav a{
+	color:#fbfafa;
+}
+
+nav a:hover{
+	font-weight:700;
+}
+nav a{
+    display: inline-block;
+    width: 7em;
+    padding: 1em;
+    margin: 0 1%;
+}
+
+li{
+	/*display:inline;*/
+	/*padding: 1.25em 2.1875em 1.25em;*/
+}
+a{
+	color: rgba(51,51,51,1);
+	text-decoration: none;
+}
+
+h1{
+	font-family:'Roboto',sans-serif;
+	font-weight: 400;
+	color:#fbfafa;
+	font-size: 2em;
+	/*padding-bottom: .9375em;*/
+	text-transform: uppercase;
+}
+
+#logo{
+	height:12em;
+	position: center;
+	margin-top: 11em;
+}
+#learn{
+	border-style: solid;
+	border-width: .0781em;
+	border-color: #fbfafa;
+	background-color: transparent;
+	padding: .5em 1.375em;
+	width: 25%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #fbfafa;
+	text-decoration: none;
+}
+
+#learn:hover{
+	background-color:#fbfafa;
+	color: #333333;
+}
+#second{
+	/*height: 30em;*/
+	background-color: #fff;
+	padding: 6em 20em;
+	max-width: 80em;
+	margin: auto;
+}
+#second h2{
+	font-family:'Roboto', sans-serif;
+	color:#333333;
+	font-size: 1.75em;
+	font-weight: 700;
+	margin-top: .5em;
+}
+#second p{
+	color:#333333;
+}
+#second hr{
+	background-color: #333333;
+
+}
+#light{
+	height:4.0625em;
+}
+.third{
+	background-image: url(../images/cauli_kale_final.jpg);
+	background-size: cover;
+	/*height: 30em;*/
+}
+.third h2{
+	font-family:'Roboto',sans-serif;
+	font-size: 1.75em;
+	font-weight: 700;
+	color:#fbfafa;
+}
+.third p{
+	padding: 0em 4.375em .625em;
+	margin-bottom: 10em;
+}
+.third hr{
+	background-color: #fbfafa;
+
+}
+hr{
+	background-color: #333333;
+	border:none;
+	display: block;
+	width: 1.5em;
+	height: .2em;
+	margin: .5em auto;
+	}
+#price_dc_wrapper{
+	width: 100%;
+	margin: auto;
+	max-width: 80em;
+
+}
+#dc{
+	width:48%;
+    float:left;
+    margin: 10%.5% 0%;
+   
+}
+#price{
+	width:48%;
+    float:left;
+    margin:10% .5% 0%;
+     
+}
+#fourth{
+	background-size:cover;
+	padding: 4.687em 3.125em;
+	background-color: #fff;
+}
+#fourth h2{
+	font-family: "Roboto",sans-serif;
+	font-weight: 700;
+	color: #333333;
+	opacity: 100%;
+	font-size: 1.75em;
+	padding-bottom: .5em;
+}
+#fourth .stars{
+	margin-bottom: 2em;
+}
+
+#join{
+	border-style: solid;
+	border-width: .0781em;
+	border-color: #333333;
+	background-color: transparent;
+	padding: .5em 1.375em;
+	width: 25%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #333333;
+	text-decoration: none;
+}
+#join:hover{
+	background-color:rgba(51,51,51,1);
+	color: #fbfafa;
+}
+#story_mission_wrapper{
+	max-width: 40em;
+	margin: auto;
+}
+.stars{
+	height: 1.75em;
+}
+
+.about_kitchen{
+	font-family:'Roboto',sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.75em;
+	margin: 2em 0em .2em 0em;
+}
+#story h2{
+	margin-top: 2em;
+}
+
+.scratch_tiny{
+	font-weight: 400;
+}
+.scratch_tiny:hover{
+	text-decoration: underline;
+}
+
+
+.story_mission h2{
+	font-family:'Roboto',serif;
+	font-size: 1.75em;
+	font-weight: 700;
+	color: rgba(51,51,51,1);
+	margin-top: 1em; 
+}
+.story_mission p{
+	padding: 0 1.25em 1em;
+	color: rgba(51,51,51,1);
+}
+#story p{
+	border-bottom: solid 1px rgba(51,51,51,.3);
+}
+#mission{
+	margin-bottom: 7em;
+}
+.four_boxes{
+	width:48%;
+    float:left;
+    margin: .5em;
+    padding: 0em 2.3em 1em;
+}
+#kitchen_wrapper{
+	max-width: 80em;
+    margin: auto;
+}
+
+.four_boxes h2{
+	font-family:'Roboto', sans-serif;
+	font-size: 1.75em;
+	font-weight: 700;
+	color: #333333;
+	}
+.four_boxes p{
+	color: #333333;
+}
+#hood_space h2{
+	margin-top: 2em;
+}
+#walk_ins h2{
+	margin-top: 2em;
+}
+#hood_space{
+	border-bottom: solid 1px rgba(51,51,51,.3);
+
+}
+#walk_ins{
+	border-bottom: solid 1px rgba(51,51,51,.3);
+
+}
+#office_space{
+    margin-bottom: 7em;
+	}
+
+#more{
+    margin-bottom: 7em; 
+	}
+
+footer{
+	background-image: url(../images/star_background_gray.png);
+	background-color: #333333;
+	background-size: cover;
+	padding:1.5625em;
+	/*height: 30vh;*/
+}
+footer p{
+	font-size: .75em;
+	margin-top:5em;
+}
+
+@media only screen and (max-width:1160px) {
+	#second {
+		padding: 6em 10em;
+	}
+	.third p{
+		padding: 0em 2em .625em; 
+	}
+	.about_kitchen{
+	margin: 0em 0em .2em 0em;
+	}
+}
+@media only screen and (max-width:975px) {
+	#about,#kitchen{
+		height: 15em;
+	}
+
+ }
+@media only screen and (max-width:830px) {
+	#second {
+		padding: 6em 5em;
+	}
+	.third p{
+		padding: 0em 1.5em .625em; 
+	}
+
+	.story_mission {
+		margin:2em 1%;
+		width:98%;
+	}
+	.four_boxes{
+		float: none;
+		width: 75%;
+		}
+	#walk_ins{
+		margin: 0 auto;
+		border-bottom: none;
+
+		}
+	#hood_space{
+		margin: 0 auto;
+		border-bottom: none;
+		}
+	#hood_space h2{
+		margin-top: 0em;
+	}
+	#office_space{
+		margin: 0 auto;
+
+		}
+	#more{
+		margin: 0 auto 7em auto;
+		}
+}
+@media only screen and (max-width:755px){
+	#logo{
+			height: 9em;
+		}
+	}
+	@media only screen and (max-width: 670px){
+	#second {
+		padding: 6em 4em;
+		}
+	.third p{
+		padding: 0em 1em .625em; 
+		}
+	
+	}
+	
+	@media only screen and (max-width:640px){
+		#dc h2{
+			padding-top: 1em;
+		}
+
+		.third p{
+			margin-bottom: 1em;
+		}
+		#dc{
+			float: none;
+			margin: auto;
+			width: 98%;
+
+		}
+		#price{
+			float: none;
+			margin: auto;
+			width: 98%;
+
+		}
+		.about_kitchen{
+			margin-top: 0em;
+		}
+	}
+	@media only screen and (max-width:615px) {
+		nav a{
+		display: block;
+		padding: 1em;
+		margin: 1% auto;
+		}
+		#logo {
+			height: 7em;
+			margin-top: 5em;
+		}
+		h1{
+			font-size: 1.5em;
+		}
+		#second {
+			padding: 6em 2em;
+		}
+		#about,#kitchen{
+			background-image: none;
+			height: 2em;
+		}
+		.four_boxes{
+			width: 98%;
+		}
+	}
+	@media only screen and (max-width:550px) {
+		#logo{
+			height: 7em;
+		}
+		h1{
+			font-size: 1.5em;
+		}
+		#second{
+			padding: 6em 1em;
+		}
+	}
+	@media only screen and (max-width:520px) {
+		#logo{
+			height: 7em;
+		}
+	}
