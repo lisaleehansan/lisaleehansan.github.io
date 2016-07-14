@@ -33,14 +33,13 @@ p{
 #home{
 	background-image: url(../images/salmon_orzo_dark.jpg);
 	background-size: cover;
-	/*background-repeat: no-repeat;*/
 	height: 100vh;
 }
 #about{
 	background-image: url(../images/parsley.jpg);
 	background-size:100%;
 	background-repeat: no-repeat;
-	height: 19.3125em;
+	height: 19.312em;
 }
 
 #kitchen{
@@ -90,10 +89,12 @@ nav a:hover{
 	font-weight:700;
 }
 nav a{
-	display: inline;
-	padding: 1em;
-	margin: 0 1%;
+    display: inline-block;
+    width: 7em;
+    padding: 1em;
+    margin: 0 1%;
 }
+
 li{
 	/*display:inline;*/
 	/*padding: 1.25em 2.1875em 1.25em;*/
@@ -287,7 +288,7 @@ hr{
 	width:48%;
     float:left;
     margin: .5em;
-    padding: 0em 2.3125em 1em;
+    padding: 0em 2.3em 1em;
 }
 #kitchen_wrapper{
 	max-width: 80em;
@@ -344,12 +345,16 @@ footer p{
 	.third p{
 		padding: 0em 2em .625em; 
 	}
+	.about_kitchen{
+	margin: 0em 0em .2em 0em;
+	}
 }
-	
 @media only screen and (max-width:975px) {
+	#about,#kitchen{
+		height: 15em;
+	}
 
  }
-	
 @media only screen and (max-width:830px) {
 	#second {
 		padding: 6em 5em;
@@ -362,12 +367,9 @@ footer p{
 		margin:2em 1%;
 		width:98%;
 	}
-@media only screen and (max-width:755px){
-	#logo{
-			height: 9em;
-		}
 	.four_boxes{
 		float: none;
+		width: 75%;
 		}
 	#walk_ins{
 		margin: 0 auto;
@@ -377,8 +379,10 @@ footer p{
 	#hood_space{
 		margin: 0 auto;
 		border-bottom: none;
-
 		}
+	#hood_space h2{
+		margin-top: 0em;
+	}
 	#office_space{
 		margin: 0 auto;
 
@@ -386,6 +390,12 @@ footer p{
 	#more{
 		margin: 0 auto 7em auto;
 		}
+}
+@media only screen and (max-width:755px){
+	#logo{
+			height: 9em;
+		}
+	}
 	@media only screen and (max-width: 670px){
 	#second {
 		padding: 6em 4em;
@@ -393,7 +403,7 @@ footer p{
 	.third p{
 		padding: 0em 1em .625em; 
 		}
-
+	
 	}
 	
 	@media only screen and (max-width:640px){
@@ -417,13 +427,14 @@ footer p{
 
 		}
 		.about_kitchen{
-		margin-top: 0em;
+			margin-top: 0em;
 		}
+	}
 	@media only screen and (max-width:615px) {
 		nav a{
 		display: block;
 		padding: 1em;
-		margin: 0 1%;
+		margin: 1% auto;
 		}
 		#logo {
 			height: 7em;
@@ -435,9 +446,12 @@ footer p{
 		#second {
 			padding: 6em 2em;
 		}
-		.third {
-			/*background-image: none;*/
-			/*background-color: #333;*/
+		#about,#kitchen{
+			background-image: none;
+			height: 2em;
+		}
+		.four_boxes{
+			width: 98%;
 		}
 	}
 	@media only screen and (max-width:550px) {
@@ -452,12 +466,6 @@ footer p{
 		}
 	}
 	@media only screen and (max-width:520px) {
-		#home{
-		/*background-image: none;*/
-	    /*background-size: none;*/
-		/*min-height: none;*/
-		/*background-color: #333333;*/
-	}
 		#logo{
 			height: 7em;
 		}
