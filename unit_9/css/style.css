@@ -158,13 +158,20 @@ h1{
 
 }
 #light{
-	height:4.0625em;
+	height:3.5em;
 }
 .third{
 	background-image: url(../images/cauli_kale_final.jpg);
 	background-size: cover;
 	/*height: 30em;*/
 }
+#price_dc_wrapper{
+	width: 100%;
+	margin: auto;
+	max-width: 80em;
+	background: rgba(51,51,51,1);
+}
+
 .third h2{
 	font-family:'Roboto',sans-serif;
 	font-size: 1.75em;
@@ -187,12 +194,6 @@ hr{
 	height: .2em;
 	margin: .5em auto;
 	}
-#price_dc_wrapper{
-	width: 100%;
-	margin: auto;
-	max-width: 80em;
-
-}
 #dc{
 	width:48%;
     float:left;
@@ -244,7 +245,7 @@ hr{
 	margin: auto;
 }
 .stars{
-	height: 1.75em;
+	height: 2em;
 }
 
 .about_kitchen{
@@ -279,12 +280,13 @@ hr{
 	color: rgba(51,51,51,1);
 }
 #story p{
-	border-bottom: solid 1px rgba(51,51,51,.3);
+	/*border-bottom: solid 1px rgba(51,51,51,.3);*/
 }
 #mission{
 	margin-bottom: 7em;
 }
 .four_boxes{
+	min-height: 15em;
 	width:48%;
     float:left;
     margin: .5em;
@@ -302,6 +304,8 @@ hr{
 	color: #333333;
 	}
 .four_boxes p{
+	margin: auto;
+	max-width: 24em;
 	color: #333333;
 }
 #hood_space h2{
@@ -311,11 +315,11 @@ hr{
 	margin-top: 2em;
 }
 #hood_space{
-	border-bottom: solid 1px rgba(51,51,51,.3);
+	/*border-bottom: solid 1px rgba(51,51,51,.3);*/
 
 }
 #walk_ins{
-	border-bottom: solid 1px rgba(51,51,51,.3);
+	/*border-bottom: solid 1px rgba(51,51,51,.3);*/
 
 }
 #office_space{
