@@ -374,6 +374,7 @@ footer p{
 	.four_boxes{
 		float: none;
 		width: 75%;
+		min-height: 5em;
 		}
 	#walk_ins{
 		margin: 0 auto;
